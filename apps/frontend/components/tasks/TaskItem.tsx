@@ -40,7 +40,7 @@ export function TaskItem({ task, onToggle, onUpdate, onDelete }: TaskItemProps) 
   const [deleteOpen, setDeleteOpen] = useState(false);
   const [deleting, setDeleting] = useState(false);
 
-  const createdDate = new Date(task.createdAt).toLocaleDateString("uk-UA", {
+  const createdDate = new Date(task.createdAt).toLocaleDateString("en-GB", {
     day: "2-digit",
     month: "short",
   });
