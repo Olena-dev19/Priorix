@@ -1,0 +1,23 @@
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.low {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+
+.medium {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
+.high {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
